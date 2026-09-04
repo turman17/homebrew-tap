@@ -7,7 +7,7 @@ cask "finderconvert" do
   desc "File converter in Finder's right-click menu"
   homepage "https://github.com/turman17/FinderConvert"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FinderConvert.app"
 
